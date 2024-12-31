@@ -7,14 +7,18 @@
 {% endblock css %}
 
 
-{% block content %}
+{% comment %} {% block content %}
     <div class = "mt-5 pt-5">
-        <h1 class="m-2" class="mt-5 pt-5"><strong>{{ content }}</strong></h1>
+        <h1 class="mt-5 pt-5 bg-white custom-shadow rounded"><strong>{{ content }}</strong></h1>
         <p class="m-2">{{ text_on_page }}</p>
     </div>
-
+{% endblock %} {% endcomment %}
+{% block content %}
+    <div class = "mt-5 pt-5 bg-white custom-shadow rounded">
+        <h1 class="m-2 mt-5 pt-5"><strong>{{ content }}</strong></h1>
+        <p class="m-2">{{ text_on_page }}</p>
+    </div>
 {% endblock %}
-
 {% block footer %}
     <footer class="py-4 bg-dark">
         <div class="container">
