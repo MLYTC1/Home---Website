@@ -1,28 +1,26 @@
-{% extends "main/base.html" %}
-
+{% extends "base.html" %}
 {% load static %}
-
-{% block css %}
-        <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
-{% endblock css %}
-
-
-{% comment %} {% block content %}
-    <div class = "mt-5 pt-5">
-        <h1 class="mt-5 pt-5 bg-white custom-shadow rounded"><strong>{{ content }}</strong></h1>
-        <p class="m-2">{{ text_on_page }}</p>
-    </div>
-{% endblock %} {% endcomment %}
-{% block content %}
-    <div class = "mt-5 pt-5 bg-white custom-shadow rounded">
-        <h1 class="m-2 mt-5 pt-5"><strong>{{ content }}</strong></h1>
-        <p class="m-2">{{ text_on_page }}</p>
-    </div>
+{% block css %} 
+<link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+ {% endblock css %} 
+ {% comment %} {% block content %}
+<div class="mt-5 pt-5">
+  <h1 class="mt-5 pt-5 bg-white custom-shadow rounded">
+    <strong>{{ content }}</strong>
+  </h1>
+  <p class="m-2">{{ text_on_page }}</p>
+</div>
+{% endblock %} {% endcomment %} {% block content %}
+<div class="mt-5 pt-5 bg-white custom-shadow rounded">
+  <h1 class="m-2 mt-5 pt-5"><strong>{{ content }}</strong></h1>
+  <p class="m-2">{{ text_on_page }}</p>
+</div>
+{% endblock %} {% block footer %}
+<footer class="py-4 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      Copyright &copy; Home Python Hub Studio 2023
+    </p>
+  </div>
+</footer>
 {% endblock %}
-{% block footer %}
-    <footer class="py-4 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Home Python Hub Studio 2023</p>
-        </div>
-    </footer>
-{% endblock  %}
