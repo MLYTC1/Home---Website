@@ -1,1 +1,42 @@
-[{"model": "goods.categories", "pk": 4, "fields": {"name": "All Products", "slug": "all"}}, {"model": "goods.categories", "pk": 5, "fields": {"name": "Kitchen", "slug": "kitchen"}}, {"model": "goods.categories", "pk": 6, "fields": {"name": "Bedroom", "slug": "bedroom"}}, {"model": "goods.categories", "pk": 7, "fields": {"name": "Living room", "slug": "living-room"}}, {"model": "goods.categories", "pk": 8, "fields": {"name": "Office", "slug": "office"}}, {"model": "goods.categories", "pk": 9, "fields": {"name": "Furniture", "slug": "furniture"}}, {"model": "goods.categories", "pk": 10, "fields": {"name": "Decor", "slug": "decor"}}]
+[
+  {
+    "model": "goods.categories",
+    "pk": 4,
+    "fields": { "name": "All Products", "slug": "all" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 5,
+    "fields": { "name": "Kitchen", "slug": "kitchen" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 6,
+    "fields": { "name": "Bedroom", "slug": "bedroom" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 7,
+    "fields": { "name": "Living room", "slug": "living-room" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 8,
+    "fields": { "name": "Office", "slug": "office" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 9,
+    "fields": { "name": "Furniture", "slug": "furniture" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 10,
+    "fields": { "name": "Decor", "slug": "decor" }
+  },
+  {
+    "model": "goods.categories",
+    "pk": 12,
+    "fields": { "name": "Декор", "slug": "dekor" }
+  }
+]
