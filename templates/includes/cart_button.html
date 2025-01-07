@@ -27,9 +27,11 @@
                     {% include "carts/includes/included_cart.html" %}
                     <!-- end of shopping cart markup -->
                 </div>
-                <a class="btn btn-dark" href="orders/create_order.html">
-                    Place an order
-                </a>
+                {% if carts %}
+                    <a class="btn btn-dark" href="orders/create_order.html">
+                        Place an order
+                    </a>
+                {% endif %}
             </div>
         </div>
     </div>

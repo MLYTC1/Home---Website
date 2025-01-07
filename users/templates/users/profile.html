@@ -89,9 +89,11 @@
                             {% include "carts/includes/included_cart.html" %}
                             <!-- end of basket html -->
                         </div>
-                        <a class="btn btn-dark" href="{% static "orders/create_order.html" %}">
-                            Оформить заказ
-                        </a>
+                        {% if carts %}
+                            <a class="btn btn-dark" href="orders/create_order.html">
+                                Place an order
+                            </a>
+                        {% endif %}
                     </div>
                 </div>
                 <!-- place order -->
